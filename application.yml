@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    active:
+    - dev
+
+---
+spring:
+  profiles:  dev
+    application:
+      name: demo-client1-dev
+
+---
+spring:
+  profiles:  test
+    application:
+      name: demo-client1-test
